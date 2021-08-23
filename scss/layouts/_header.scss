@@ -1,0 +1,142 @@
+.header {
+  position: relative;
+  background-image: linear-gradient(to right, $bg-gradient),
+    url("../images/header/mobile/bg-photo-mobile-min.jpg");
+  background-color: $bg-gradient;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: $bg-gradient;
+  padding-top: 20px;
+
+  @media screen and(min-width: 1320px) {
+    padding-top: 52px;
+    padding-bottom: 71px;
+  }
+
+  @media screen and(min-width: 1920px) {
+    padding-top: 130px;
+    padding-bottom: 133px;
+  }
+
+  @media (min-device-pixel-ratio: 2) and (max-width: 1319px),
+    (min-resolution: 192dpi) and (max-width: 1319px),
+    (min-resolution: 2dppx) and (max-width: 1319px) {
+    background-image: linear-gradient(to right, $bg-gradient),
+      url("../images/header/mobile/bg-photo-mobile@2x-min.jpg");
+  }
+
+  @media screen and (min-width: 1320px) {
+    background-image: linear-gradient(to right, $bg-gradient),
+      url("../images/header/laptop/bg-photo-laptop-min.jpg");
+  }
+
+  @media (min-device-pixel-ratio: 2) and (min-width: 1320px),
+    (min-resolution: 192dpi) and (min-width: 1320px),
+    (min-resolution: 2dppx) and (min-width: 1320px) {
+    background-image: linear-gradient(to right, $bg-gradient),
+      url("../images/header/laptop/bg-photo-laptop@2x-min.jpg");
+  }
+
+  @media screen and (min-width: 1920px) {
+    background-image: linear-gradient(to right, $bg-gradient),
+      url("../images/header/desktop/bg-photo-desktop-min.jpg");
+  }
+
+  @media (min-device-pixel-ratio: 2) and (min-width: 1920px),
+    (min-resolution: 192dpi) and (min-width: 1920px),
+    (min-resolution: 2dppx) and (min-width: 1920px) {
+    background-image: linear-gradient(to right, $bg-gradient),
+      url("../images/header/desktop/bg-photo-desktop@2x-min.jpg");
+  }
+
+  &__thumb {
+    @media screen and(min-width: 1320px) {
+      display: flex;
+    }
+  }
+
+  &__left-side {
+    @media screen and(min-width: 1320px) {
+      max-width: 540px;
+    }
+  }
+
+  &__logo {
+    width: 50px;
+    height: 64px;
+    @media screen and(min-width: 1320px) {
+      width: 85px;
+      height: 110px;
+    }
+  }
+
+  &__title {
+    margin-top: 25px;
+    font-size: 32px;
+    font-weight: $fw-light;
+    color: $white-color;
+    line-height: 1.25;
+
+    @media screen and(min-width: 1320px) {
+      margin-top: 42px;
+      font-size: 45px;
+      line-height: 1.22;
+    }
+  }
+
+  &__description {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: $fw-light;
+    color: $white-color;
+    line-height: 1.5;
+
+    @media screen and(min-width: 1320px) {
+      font-size: 20px;
+      line-height: 1.5;
+    }
+  }
+
+  &__button {
+    margin-top: 25px;
+    margin-bottom: 22px;
+    padding: 13px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: $yellow-color;
+    color: $white-color;
+    font-size: 12px;
+    font-weight: $fw-bold;
+    text-transform: uppercase;
+    line-height: 1.16;
+    letter-spacing: 0.1em;
+
+    @media screen and(min-width: 1320px) {
+      padding: 18px 30px;
+      font-size: 14px;
+      line-height: 1;
+      margin-bottom: 0;
+    }
+  }
+
+  &__img {
+    display: block;
+    margin: 0 auto;
+
+    @media screen and(min-width: 1320px) {
+      position: absolute;
+      bottom: 0;
+      right: 105px;
+    }
+
+    @media screen and(min-width: 1920px) {
+      position: absolute;
+      bottom: 0;
+      right: 405px;
+    }
+  }
+}

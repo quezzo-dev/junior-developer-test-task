@@ -1,0 +1,25 @@
+// ========== Utils ========== \\
+
+@import "./utils/normalise";
+@import "./utils/variables";
+
+// ========== End Utils ========== \\
+
+// ========== Common ========== \\
+
+@import "./common/general";
+@import "./common/container";
+
+// ========== End Common ========== \\
+
+// ========== Layouts ========== \\
+
+@import "./layouts/header";
+@import "./layouts/payment";
+@import "./layouts/our-qualities";
+@import "./layouts/about";
+@import "./layouts/reviews";
+@import "./layouts/client";
+@import "./layouts/footer";
+
+// ========== End Layouts ========== \\

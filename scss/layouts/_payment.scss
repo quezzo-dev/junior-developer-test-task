@@ -1,0 +1,74 @@
+.payment {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  @media screen and(min-width: 1320px) {
+    padding-top: 65px;
+    padding-bottom: 56px;
+  }
+
+  @media screen and(min-width: 1320px) {
+    padding-top: 75px;
+    padding-bottom: 65px;
+  }
+
+  &__title {
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 246px;
+    font-size: 25px;
+    font-weight: $fw-light;
+    line-height: 1.4;
+
+    @media screen and(min-width: 1320px) {
+      max-width: 540px;
+      font-size: 35px;
+      line-height: 1.28;
+    }
+  }
+
+  &__list {
+    margin-top: 20px;
+    margin-bottom: 18px;
+  }
+
+  &__item {
+    &:not(:first-child) {
+      margin-top: 33px;
+    }
+  }
+
+  &__description {
+    font-size: 14px;
+    font-weight: $fw-light;
+    line-height: 1.5;
+    max-width: 246px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and(min-width: 1320px) {
+      max-width: 540px;
+      font-size: 16 px;
+      line-height: 1.5;
+    }
+  }
+
+  &__img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  &__thumb {
+    @media screen and(min-width: 1320px) {
+      display: flex;
+    }
+  }
+
+  &__left-side {
+    @media screen and(min-width: 1320px) {
+      max-width: 540px;
+      margin-right: 95px;
+    }
+  }
+}

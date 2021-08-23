@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Task</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="./js/slick/slick.css" />
+    <link rel="stylesheet" href="./js/slick/slick-theme.css" />
+  </head>
+  <body>
+    <!-- | Header | -->
+
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__thumb">
+          <div class="header__left-side">
+            <a href="./index.html"
+              ><img
+                src="./images/logo.svg"
+                class="header__logo"
+                alt="Header logo"
+            /></a>
+            <h1 class="header__title">
+              Lorem ipsum dolor sit consectetur adipiscing elit nullam sagittis.
+            </h1>
+            <p class="header__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              sagittis risus et diam euismod vestibulum. Fusce suscipit leo
+              ornare nulla ullamcorper, sed pellentesque libero ornare. Praesent
+              egestas rhoncus sagittis.
+            </p>
+
+            <button class="header__button">Book a meeting</button>
+          </div>
+
+          <picture class="header__picture">
+            <source
+              srcset="
+                ./images/header/desktop/man-desktop-min.png    1x,
+                ./images/header/desktop/man-desktop@2x-min.png 2x
+              "
+              media="(min-width: 1920px)"
+            />
+
+            <source
+              srcset="
+                ./images/header/laptop/man-laptop-min.png    1x,
+                ./images/header/laptop/man-laptop@2x-min.png 2x
+              "
+              media="(min-width: 1320px)"
+            />
+
+            <source
+              srcset="
+                ./images/header/mobile/man-mobile-min.png    1x,
+                ./images/header/mobile/man-mobile@2x-min.png 2x
+              "
+              media="(max-width: 1319px)"
+            />
+
+            <img
+              src="./images/header/mobile/man-mobile-min.png"
+              alt="Man photo"
+              class="header__img"
+            />
+          </picture>
+        </div>
+      </div>
+    </header>
+
+    <!-- | End Header | -->
+
+    <!-- | Main | -->
+
+    <main class="main">
+      <!-- | Payment | -->
+
+      <section class="payment">
+        <div class="container">
+          <div class="payment__thumb">
+            <div class="payment__left-side">
+              <h2 class="payment__title">
+                Lorem ipsum dolor sit amet, consectetur elit eleifend mauris.
+              </h2>
+              <ul class="payment__list">
+                <li class="payment__item">
+                  <p class="payment__description">
+                    Phasellus quis sapien ac ex eleifend viverra non vulputate
+                    mi. Praesent in sodales lacus, et vehicula ex. Pellentesque
+                    elementum eu nisl non posuere. Sed lobortis purus non tempor
+                    dapibus.
+                  </p>
+                </li>
+
+                <li class="payment__item">
+                  <p class="payment__description">
+                    Sed nec iaculis leo, in luctus ipsum. Sed eu neque
+                    consectetur, mollis neque vel, ultrices quam. Donec
+                    ullamcorper consectetur lacinia. Praesent laoreet enim eget
+                    leo suscipit, at bibendum elit egestas. Cras euismod congue
+                    nunc id convallis.
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <picture class="payment__picture">
+              <source
+                srcset="
+                  ./images/payment/laptop/img-side-laptop-min.jpg    1x,
+                  ./images/payment/laptop/img-side-laptop@2x-min.jpg 2x
+                "
+                media="(min-width: 1320px)"
+              />
+
+              <source
+                srcset="
+                  ./images/payment/mobile/img-side-mobile-min.jpg    1x,
+                  ./images/payment/mobile/img-side-mobile@2x-min.jpg 2x
+                "
+                media="(max-width: 1319px)"
+              />
+              <img
+                src="./images/payment/mobile/img-side-mobile-min.jpg"
+                alt="Side images"
+                class="payment__img"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <!-- | Ednd Payment | -->
+
+      <!-- | Qualities | -->
+
+      <section class="our-qualities">
+        <div class="container">
+          <h2 class="our-qualities__title">
+            Lorem ipsum dolor sit amet schwifty
+          </h2>
+
+          <iframe
+            class="our-qualities__video"
+            src="https://www.youtube.com/embed/xcJtL7QggTI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <ul class="our-qualities__list">
+            <li class="our-qualities__item">
+              <div class="wow fadeInUp">
+                <svg class="our-qualities__icon">
+                  <use href="./images/our-qualities/sprite.svg#icon_1"></use>
+                </svg>
+              </div>
+              <p class="our-qualities__subtitle">Service A</p>
+              <p class="our-qualities__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at
+                gravida arcu, ac tempor neque. Maecenas massa sem, tincidunt a
+                quam ut, tincidunt viverra purus suspendisse congue.
+              </p>
+            </li>
+
+            <li class="our-qualities__item">
+              <div class="wow fadeInUp">
+                <svg class="our-qualities__icon">
+                  <use href="./images/our-qualities/sprite.svg#icon_2"></use>
+                </svg>
+              </div>
+              <p class="our-qualities__subtitle">Service B</p>
+              <p class="our-qualities__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at
+                gravida arcu, ac tempor neque. Maecenas massa sem, tincidunt a
+                quam ut, tincidunt viverra purus suspendisse congue.
+              </p>
+            </li>
+
+            <li class="our-qualities__item">
+              <div class="wow fadeInUp">
+                <svg class="our-qualities__icon">
+                  <use href="./images/our-qualities/sprite.svg#icon_3"></use>
+                </svg>
+              </div>
+              <p class="our-qualities__subtitle">Service C</p>
+              <p class="our-qualities__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at
+                gravida arcu, ac tempor neque. Maecenas massa sem, tincidunt a
+                quam ut, tincidunt viverra purus suspendisse congue.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- | End Qualities | -->
+
+      <!-- | About | -->
+
+      <section class="about">
+        <div class="about__thumb">
+          <div>
+            <picture class="about__picture">
+              <source
+                srcset="
+                  ./images/about/desktop/img-side2-desktop-min.jpg    1x,
+                  ./images/about/desktop/img-side2-desktop@2x-min.jpg 2x
+                "
+                media="(min-width: 1920px)"
+              />
+
+              <source
+                srcset="
+                  ./images/about/laptop/img-side2-laptop-min.jpg    1x,
+                  ./images/about/laptop/img-side2-laptop@2x-min.jpg 2x
+                "
+                media="(min-width: 1320px)"
+              />
+
+              <source
+                srcset="
+                  ./images/about/mobile/img-side2-mobile-min.jpg    1x,
+                  ./images/about/mobile/img-side2-mobile@2x-min.jpg 2x
+                "
+                media="(max-width: 1319px)"
+              />
+              <img
+                src="./images/about/mobile/img-side2-mobile-min.jpg"
+                alt="Side images"
+                class="about__img"
+              />
+            </picture>
+          </div>
+
+          <div class="container about__container">
+            <h2 class="about__title">
+              Lorem ipsum dolor sit amet, consectetur elit eleifend mauris.
+            </h2>
+
+            <ul class="about__list">
+              <li class="about__item">
+                <p class="about__description">
+                  Phasellus quis sapien ac ex eleifend viverra non vulputate mi.
+                  Praesent in sodales lacus, et vehicula ex. Pellentesque
+                  elementum eu nisl non posuere. Sed lobortis purus non tempor
+                  dapibus.
+                </p>
+              </li>
+
+              <li class="about__item">
+                <p class="about__description">
+                  Sed nec iaculis leo, in luctus ipsum. Sed eu neque
+                  consectetur, mollis neque vel, ultrices quam. Donec
+                  ullamcorper consectetur lacinia. Praesent laoreet enim eget
+                  leo suscipit, at bibendum elit egestas. Cras euismod congue
+                  nunc id convallis.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- | End About | -->
+
+      <!-- | Reviews | -->
+
+      <section class="reviews">
+        <div class="container">
+          <h2 class="reviews__title">Lorem ipsum dolor sit amet</h2>
+          <ul class="reviews__list">
+            <li class="reviews__item">
+              <p class="reviews__text">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                id sagittis urna, sit amet rhoncus orci. Maecenas in diam ac
+                augue ultricies.“
+              </p>
+
+              <ul class="reviews__sec-list">
+                <li class="reviews__sec-item">
+                  <p class="reviews__subtitle">Alyssa Aitken</p>
+                  <p class="reviews__description">
+                    Director Sales Management <br />
+                    One Hope Wine
+                  </p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="reviews__item">
+              <p class="reviews__text">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                id sagittis urna, sit amet rhoncus orci. Maecenas in diam ac
+                augue ultricies.“
+              </p>
+
+              <ul class="reviews__sec-list">
+                <li class="reviews__sec-item">
+                  <p class="reviews__subtitle">Alyssa Aitken</p>
+                  <p class="reviews__description">
+                    Director Sales Management <br />
+                    One Hope Wine
+                  </p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="reviews__item">
+              <p class="reviews__text">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                id sagittis urna, sit amet rhoncus orci. Maecenas in diam ac
+                augue ultricies.“
+              </p>
+
+              <ul class="reviews__sec-list">
+                <li class="reviews__sec-item">
+                  <p class="reviews__subtitle">Alyssa Aitken</p>
+                  <p class="reviews__description">
+                    Director Sales Management <br />
+                    One Hope Wine
+                  </p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="reviews__item">
+              <p class="reviews__text">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                id sagittis urna, sit amet rhoncus orci. Maecenas in diam ac
+                augue ultricies.“
+              </p>
+
+              <ul class="reviews__sec-list">
+                <li class="reviews__sec-item">
+                  <p class="reviews__subtitle">Alyssa Aitken</p>
+                  <p class="reviews__description">
+                    Director Sales Management <br />
+                    One Hope Wine
+                  </p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="reviews__item">
+              <p class="reviews__text">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                id sagittis urna, sit amet rhoncus orci. Maecenas in diam ac
+                augue ultricies.“
+              </p>
+
+              <ul class="reviews__sec-list">
+                <li class="reviews__sec-item">
+                  <p class="reviews__subtitle">Alyssa Aitken</p>
+                  <p class="reviews__description">
+                    Director Sales Management <br />
+                    One Hope Wine
+                  </p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="reviews__item">
+              <p class="reviews__text">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                id sagittis urna, sit amet rhoncus orci. Maecenas in diam ac
+                augue ultricies.“
+              </p>
+
+              <ul class="reviews__sec-list">
+                <li class="reviews__sec-item">
+                  <p class="reviews__subtitle">Alyssa Aitken</p>
+                  <p class="reviews__description">
+                    Director Sales Management <br />
+                    One Hope Wine
+                  </p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="reviews__item">
+              <p class="reviews__text">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                id sagittis urna, sit amet rhoncus orci. Maecenas in diam ac
+                augue ultricies.“
+              </p>
+
+              <ul class="reviews__sec-list">
+                <li class="reviews__sec-item">
+                  <p class="reviews__subtitle">Alyssa Aitken</p>
+                  <p class="reviews__description">
+                    Director Sales Management <br />
+                    One Hope Wine
+                  </p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="reviews__item">
+              <p class="reviews__text">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                id sagittis urna, sit amet rhoncus orci. Maecenas in diam ac
+                augue ultricies.“
+              </p>
+
+              <ul class="reviews__sec-list">
+                <li class="reviews__sec-item">
+                  <p class="reviews__subtitle">Alyssa Aitken</p>
+                  <p class="reviews__description">
+                    Director Sales Management <br />
+                    One Hope Wine
+                  </p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="reviews__item">
+              <p class="reviews__text">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                id sagittis urna, sit amet rhoncus orci. Maecenas in diam ac
+                augue ultricies.“
+              </p>
+
+              <ul class="reviews__sec-list">
+                <li class="reviews__sec-item">
+                  <p class="reviews__subtitle">Alyssa Aitken</p>
+                  <p class="reviews__description">
+                    Director Sales Management <br />
+                    One Hope Wine
+                  </p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="reviews__item">
+              <p class="reviews__text">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                id sagittis urna, sit amet rhoncus orci. Maecenas in diam ac
+                augue ultricies.“
+              </p>
+
+              <ul class="reviews__sec-list">
+                <li class="reviews__sec-item">
+                  <p class="reviews__subtitle">Alyssa Aitken</p>
+                  <p class="reviews__description">
+                    Director Sales Management <br />
+                    One Hope Wine
+                  </p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="reviews__item">
+              <p class="reviews__text">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                id sagittis urna, sit amet rhoncus orci. Maecenas in diam ac
+                augue ultricies.“
+              </p>
+
+              <ul class="reviews__sec-list">
+                <li class="reviews__sec-item">
+                  <p class="reviews__subtitle">Alyssa Aitken</p>
+                  <p class="reviews__description">
+                    Director Sales Management <br />
+                    One Hope Wine
+                  </p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="reviews__item">
+              <p class="reviews__text">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                id sagittis urna, sit amet rhoncus orci. Maecenas in diam ac
+                augue ultricies.“
+              </p>
+
+              <ul class="reviews__sec-list">
+                <li class="reviews__sec-item">
+                  <p class="reviews__subtitle">Alyssa Aitken</p>
+                  <p class="reviews__description">
+                    Director Sales Management <br />
+                    One Hope Wine
+                  </p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="reviews__item">
+              <p class="reviews__text">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                id sagittis urna, sit amet rhoncus orci. Maecenas in diam ac
+                augue ultricies.“
+              </p>
+
+              <ul class="reviews__sec-list">
+                <li class="reviews__sec-item">
+                  <p class="reviews__subtitle">Alyssa Aitken</p>
+                  <p class="reviews__description">
+                    Director Sales Management <br />
+                    One Hope Wine
+                  </p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="reviews__item">
+              <p class="reviews__text">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                id sagittis urna, sit amet rhoncus orci. Maecenas in diam ac
+                augue ultricies.“
+              </p>
+
+              <ul class="reviews__sec-list">
+                <li class="reviews__sec-item">
+                  <p class="reviews__subtitle">Alyssa Aitken</p>
+                  <p class="reviews__description">
+                    Director Sales Management <br />
+                    One Hope Wine
+                  </p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="reviews__item">
+              <p class="reviews__text">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                id sagittis urna, sit amet rhoncus orci. Maecenas in diam ac
+                augue ultricies.“
+              </p>
+
+              <ul class="reviews__sec-list">
+                <li class="reviews__sec-item">
+                  <p class="reviews__subtitle">Alyssa Aitken</p>
+                  <p class="reviews__description">
+                    Director Sales Management <br />
+                    One Hope Wine
+                  </p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="reviews__item">
+              <p class="reviews__text">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                id sagittis urna, sit amet rhoncus orci. Maecenas in diam ac
+                augue ultricies.“
+              </p>
+
+              <ul class="reviews__sec-list">
+                <li class="reviews__sec-item">
+                  <p class="reviews__subtitle">Alyssa Aitken</p>
+                  <p class="reviews__description">
+                    Director Sales Management <br />
+                    One Hope Wine
+                  </p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="reviews__item">
+              <p class="reviews__text">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                id sagittis urna, sit amet rhoncus orci. Maecenas in diam ac
+                augue ultricies.“
+              </p>
+
+              <ul class="reviews__sec-list">
+                <li class="reviews__sec-item">
+                  <p class="reviews__subtitle">Alyssa Aitken</p>
+                  <p class="reviews__description">
+                    Director Sales Management <br />
+                    One Hope Wine
+                  </p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="reviews__item">
+              <p class="reviews__text">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                id sagittis urna, sit amet rhoncus orci. Maecenas in diam ac
+                augue ultricies.“
+              </p>
+
+              <ul class="reviews__sec-list">
+                <li class="reviews__sec-item">
+                  <p class="reviews__subtitle">Alyssa Aitken</p>
+                  <p class="reviews__description">
+                    Director Sales Management <br />
+                    One Hope Wine
+                  </p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- | End Reviews | -->
+
+      <!-- | Client | -->
+
+      <section class="client">
+        <div class="container">
+          <h2 class="client__title visually-hidden">
+            Lorem ipsum dolor sit amet
+          </h2>
+          <ul class="client__list">
+            <li class="client__item wow pulse">
+              <svg class="client__icon" width="168" height="48">
+                <use href="./images/client/sprite.svg#client-1"></use>
+              </svg>
+            </li>
+            <li class="client__item wow pulse">
+              <svg class="client__icon" width="83" height="81">
+                <use href="./images/client/sprite.svg#client-2"></use>
+              </svg>
+            </li>
+            <li class="client__item wow pulse">
+              <svg class="client__icon" width="160" height="47">
+                <use href="./images/client/sprite.svg#client-3"></use>
+              </svg>
+            </li>
+            <li class="client__item wow pulse">
+              <svg class="client__icon" width="94" height="90">
+                <use href="./images/client/sprite.svg#client-4"></use>
+              </svg>
+            </li>
+            <li class="client__item wow pulse">
+              <svg class="client__icon" width="141" height="68">
+                <use href="./images/client/sprite.svg#client-5"></use>
+              </svg>
+            </li>
+            <li class="client__item wow pulse">
+              <svg class="client__icon" width="108" height="90">
+                <use href="./images/client/sprite.svg#client-6"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- | End Client | -->
+    </main>
+    <!-- | End Main | -->
+
+    <!-- | Footer | -->
+
+    <footer class="footer">
+      <div class="container">
+        <h2 class="footer__title">
+          Vestibulum ornare nec enim at viverra integer non quam euismod.
+        </h2>
+
+        <form class="footer__form" id="footerForm">
+          <div class="footer__group">
+            <label for="name" class="footer__label">Your Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="footer__input"
+              placeholder="John Doe"
+            />
+          </div>
+
+          <div class="footer__group">
+            <label for="email" class="footer__label">Your Email</label>
+            <input
+              type="email"
+              name="email"
+              id="eamil"
+              class="footer__input"
+              placeholder="john@doe.com"
+            />
+          </div>
+
+          <div class="footer__group">
+            <label for="comment" class="footer__label">A few warm words</label>
+            <textarea
+              name="comment"
+              id="comment"
+              rows="8"
+              placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestias atque iure numquam aliquid exercitationem sint"
+              class="footer__textarea"
+            ></textarea>
+          </div>
+
+          <div class="footer__thumb">
+            <label class="checkbox">
+              <input type="checkbox" name="policy" class="checkbox__policy" />
+              <span class="checkbox__icon"></span>
+              I accept the agreement
+            </label>
+
+            <button type="submit" class="footer__button">submit</button>
+          </div>
+        </form>
+
+        <div class="footer__copy">
+          <a href="./index.html" class="footer__logo"
+            ><img src="./images/logo.svg" alt="Footer logo"
+          /></a>
+          <p class="footer__copywriting">
+            &copy 2020 Salmiac | All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- | End Footer | -->
+
+    <script src="./js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+
+    <script src="./js/slick/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
